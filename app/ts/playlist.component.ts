@@ -10,7 +10,7 @@ import {Video} from './video';
 
 
 export class PlaylistComponent {
-    onSelect(vid:video) {
+    onSelect(vid:Video) {
         console.log(JSON.stringify(vid));
     }
 
